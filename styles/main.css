@@ -16,12 +16,14 @@ img {
     border: solid;
     border-color: #8080806e;
     border-radius: 0.2rem;
+
     
 }
 
 li {
     list-style: none;
     display: inline-block;
+    
 }
 
 .authors img {
@@ -63,7 +65,8 @@ li {
     position: relative;
     height: 50px;
     border-bottom-style: solid;
-    border-bottom-color: hsla(0, 0%, 50%, 0.758);
+    border-bottom-color: hsla(0, 11%, 76%, 0.62);
+    padding-top: 0px;
 }
 
 .image-caption > a {
@@ -79,4 +82,14 @@ li {
 .image-number::before {
     content: "#";
     color: rgba(128, 128, 128, 0.757)
+}
+
+.image-footer::before {
+    content: "\2023";
+    position: absolute;
+    right: 10px;
+    bottom: 43px;
+    transform: rotate(90deg);
+    color:hsla(0, 4%, 60%, 0.62);
+    
 }
